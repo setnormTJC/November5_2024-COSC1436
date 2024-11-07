@@ -17,6 +17,7 @@ int main()
 		"bacon",
 		"tuna",
 	};
+	int nums[10] = { 1, 2, 3, 4 };
 
 	//cout << "What is this? " << groceryList << "\n";
 

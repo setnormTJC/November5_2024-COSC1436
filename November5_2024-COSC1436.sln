@@ -5,6 +5,14 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "November5_2024-COSC1436", "November5_2024-COSC1436\November5_2024-COSC1436.vcxproj", "{24B917CD-0F55-415D-9E86-54B8932415C9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nov7-continuing static array stuff", "Nov7-continuing static array stuff\Nov7-continuing static array stuff.vcxproj", "{1A14A5C0-7C29-48EB-AA0D-979680773483}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Student submission of some string function assignment", "Student submission of some string function assignment\Student submission of some string function assignment.vcxproj", "{4D20ABC3-436C-43FB-8E10-C6F879BD8E8A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Demoing range based for loop", "Demoing range based for loop\Demoing range based for loop.vcxproj", "{FECBF0ED-F7D7-4816-84D8-D8F9F0A13986}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Introduction to the dynamic array - AKA- vector", "Introduction to the dynamic array - AKA- vector\Introduction to the dynamic array - AKA- vector.vcxproj", "{4519F48F-C585-48F5-B88E-337E6BD53C18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +29,38 @@ Global
 		{24B917CD-0F55-415D-9E86-54B8932415C9}.Release|x64.Build.0 = Release|x64
 		{24B917CD-0F55-415D-9E86-54B8932415C9}.Release|x86.ActiveCfg = Release|Win32
 		{24B917CD-0F55-415D-9E86-54B8932415C9}.Release|x86.Build.0 = Release|Win32
+		{1A14A5C0-7C29-48EB-AA0D-979680773483}.Debug|x64.ActiveCfg = Debug|x64
+		{1A14A5C0-7C29-48EB-AA0D-979680773483}.Debug|x64.Build.0 = Debug|x64
+		{1A14A5C0-7C29-48EB-AA0D-979680773483}.Debug|x86.ActiveCfg = Debug|Win32
+		{1A14A5C0-7C29-48EB-AA0D-979680773483}.Debug|x86.Build.0 = Debug|Win32
+		{1A14A5C0-7C29-48EB-AA0D-979680773483}.Release|x64.ActiveCfg = Release|x64
+		{1A14A5C0-7C29-48EB-AA0D-979680773483}.Release|x64.Build.0 = Release|x64
+		{1A14A5C0-7C29-48EB-AA0D-979680773483}.Release|x86.ActiveCfg = Release|Win32
+		{1A14A5C0-7C29-48EB-AA0D-979680773483}.Release|x86.Build.0 = Release|Win32
+		{4D20ABC3-436C-43FB-8E10-C6F879BD8E8A}.Debug|x64.ActiveCfg = Debug|x64
+		{4D20ABC3-436C-43FB-8E10-C6F879BD8E8A}.Debug|x64.Build.0 = Debug|x64
+		{4D20ABC3-436C-43FB-8E10-C6F879BD8E8A}.Debug|x86.ActiveCfg = Debug|Win32
+		{4D20ABC3-436C-43FB-8E10-C6F879BD8E8A}.Debug|x86.Build.0 = Debug|Win32
+		{4D20ABC3-436C-43FB-8E10-C6F879BD8E8A}.Release|x64.ActiveCfg = Release|x64
+		{4D20ABC3-436C-43FB-8E10-C6F879BD8E8A}.Release|x64.Build.0 = Release|x64
+		{4D20ABC3-436C-43FB-8E10-C6F879BD8E8A}.Release|x86.ActiveCfg = Release|Win32
+		{4D20ABC3-436C-43FB-8E10-C6F879BD8E8A}.Release|x86.Build.0 = Release|Win32
+		{FECBF0ED-F7D7-4816-84D8-D8F9F0A13986}.Debug|x64.ActiveCfg = Debug|x64
+		{FECBF0ED-F7D7-4816-84D8-D8F9F0A13986}.Debug|x64.Build.0 = Debug|x64
+		{FECBF0ED-F7D7-4816-84D8-D8F9F0A13986}.Debug|x86.ActiveCfg = Debug|Win32
+		{FECBF0ED-F7D7-4816-84D8-D8F9F0A13986}.Debug|x86.Build.0 = Debug|Win32
+		{FECBF0ED-F7D7-4816-84D8-D8F9F0A13986}.Release|x64.ActiveCfg = Release|x64
+		{FECBF0ED-F7D7-4816-84D8-D8F9F0A13986}.Release|x64.Build.0 = Release|x64
+		{FECBF0ED-F7D7-4816-84D8-D8F9F0A13986}.Release|x86.ActiveCfg = Release|Win32
+		{FECBF0ED-F7D7-4816-84D8-D8F9F0A13986}.Release|x86.Build.0 = Release|Win32
+		{4519F48F-C585-48F5-B88E-337E6BD53C18}.Debug|x64.ActiveCfg = Debug|x64
+		{4519F48F-C585-48F5-B88E-337E6BD53C18}.Debug|x64.Build.0 = Debug|x64
+		{4519F48F-C585-48F5-B88E-337E6BD53C18}.Debug|x86.ActiveCfg = Debug|Win32
+		{4519F48F-C585-48F5-B88E-337E6BD53C18}.Debug|x86.Build.0 = Debug|Win32
+		{4519F48F-C585-48F5-B88E-337E6BD53C18}.Release|x64.ActiveCfg = Release|x64
+		{4519F48F-C585-48F5-B88E-337E6BD53C18}.Release|x64.Build.0 = Release|x64
+		{4519F48F-C585-48F5-B88E-337E6BD53C18}.Release|x86.ActiveCfg = Release|Win32
+		{4519F48F-C585-48F5-B88E-337E6BD53C18}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
