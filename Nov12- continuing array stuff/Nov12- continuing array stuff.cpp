@@ -22,8 +22,23 @@ int main()
         {1, 2, 3, 4, 5},
         {2, 4, 6, 8, 10},
         {3, 6, 9, 12, 15},
-        {4, 8, 12, 16, 20}
-    }; 
+        {4, 8, 12, 16, 20}//, 
+        //{} adding this will go out of bounds 
+   }; 
+
+    char vowels[] =
+    {
+        'A',
+        'E',
+        'I',
+        'O',
+        'U'
+    };
+
+
+
+    //cout << "Is it 5? " << sizeof(vowels) << "\n";// endl;
+
 
     for (int currentRow = 0; currentRow < NUMBER_OF_ROWS; ++currentRow)
     {

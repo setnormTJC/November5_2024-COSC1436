@@ -73,6 +73,10 @@ int main()
 
     maze[currentRow][currentCol] = positionMarker; 
 
+    maze[4][4] = 'Z'; 
+
+    printMaze(maze); 
+
     while (currentChar != 'E')
     {
         system("pause"); 
@@ -94,6 +98,5 @@ int main()
         }
         
 
-        //currentChar = ...
     }
 }
