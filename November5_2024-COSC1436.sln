@@ -21,6 +21,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Playing with a 2D array - e
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nov14 - more array play", "Nov14 - more array play\Nov14 - more array play.vcxproj", "{7716C833-25F0-493F-9427-0D915FEB3106}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "listing permutations", "listing permutations\listing permutations.vcxproj", "{EC9E31F1-355F-4D25-9614-73C4FE8303EE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nov19 - getting into some sorting algos", "Nov19 - gettting into some sorting algos\Nov19 - gettting into some sorting algos.vcxproj", "{73D22EBD-A660-43AF-986C-A9C51AD94A37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +105,22 @@ Global
 		{7716C833-25F0-493F-9427-0D915FEB3106}.Release|x64.Build.0 = Release|x64
 		{7716C833-25F0-493F-9427-0D915FEB3106}.Release|x86.ActiveCfg = Release|Win32
 		{7716C833-25F0-493F-9427-0D915FEB3106}.Release|x86.Build.0 = Release|Win32
+		{EC9E31F1-355F-4D25-9614-73C4FE8303EE}.Debug|x64.ActiveCfg = Debug|x64
+		{EC9E31F1-355F-4D25-9614-73C4FE8303EE}.Debug|x64.Build.0 = Debug|x64
+		{EC9E31F1-355F-4D25-9614-73C4FE8303EE}.Debug|x86.ActiveCfg = Debug|Win32
+		{EC9E31F1-355F-4D25-9614-73C4FE8303EE}.Debug|x86.Build.0 = Debug|Win32
+		{EC9E31F1-355F-4D25-9614-73C4FE8303EE}.Release|x64.ActiveCfg = Release|x64
+		{EC9E31F1-355F-4D25-9614-73C4FE8303EE}.Release|x64.Build.0 = Release|x64
+		{EC9E31F1-355F-4D25-9614-73C4FE8303EE}.Release|x86.ActiveCfg = Release|Win32
+		{EC9E31F1-355F-4D25-9614-73C4FE8303EE}.Release|x86.Build.0 = Release|Win32
+		{73D22EBD-A660-43AF-986C-A9C51AD94A37}.Debug|x64.ActiveCfg = Debug|x64
+		{73D22EBD-A660-43AF-986C-A9C51AD94A37}.Debug|x64.Build.0 = Debug|x64
+		{73D22EBD-A660-43AF-986C-A9C51AD94A37}.Debug|x86.ActiveCfg = Debug|Win32
+		{73D22EBD-A660-43AF-986C-A9C51AD94A37}.Debug|x86.Build.0 = Debug|Win32
+		{73D22EBD-A660-43AF-986C-A9C51AD94A37}.Release|x64.ActiveCfg = Release|x64
+		{73D22EBD-A660-43AF-986C-A9C51AD94A37}.Release|x64.Build.0 = Release|x64
+		{73D22EBD-A660-43AF-986C-A9C51AD94A37}.Release|x86.ActiveCfg = Release|Win32
+		{73D22EBD-A660-43AF-986C-A9C51AD94A37}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

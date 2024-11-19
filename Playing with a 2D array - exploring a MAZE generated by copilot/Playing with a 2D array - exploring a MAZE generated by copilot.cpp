@@ -62,7 +62,7 @@ int main()
     char maze[ROWS][COLS]; 
 
     generateMaze(maze); 
-    printMaze(maze); 
+    //printMaze(maze); 
 
     int currentRow = 2; 
     int currentCol = 1; 
@@ -73,7 +73,7 @@ int main()
 
     maze[currentRow][currentCol] = positionMarker; 
 
-    maze[4][4] = 'Z'; 
+    maze[4][4] = 'K'; 
 
     printMaze(maze); 
 

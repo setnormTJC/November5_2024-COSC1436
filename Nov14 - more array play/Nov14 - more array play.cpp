@@ -39,6 +39,27 @@ void myShuffle(vector<int>& someNumbers)
 	}
 }
 
+int findMinimum(vector<int> nums) //{1, 4, -23, 4, 22, 4456, -1830}
+{
+	int minimumSoFar = nums[0]; //1
+	//cout << INT_MAX
+
+	for (int i = 1; i < nums.size(); ++i)
+	{
+		if (nums[i] < minimumSoFar)
+		{
+			minimumSoFar = nums[i]; 
+		}
+	}
+
+	return minimumSoFar; 
+}
+
+vector<int> out_of_place_sort(vector<int>& someNumbers)
+{
+
+}
+
 void inplace_sort(vector<int>& someNumbers)
 {
 
@@ -68,10 +89,16 @@ int main()
 	srand(time(0)); //randomizes results of shuffle every program execution
 	//time(0) 
 	//suppose we have the following dynamic array: 
-	vector<int> someNumbers = { 11, 22, 33, 55, 44, 66 };
+	vector<int> someNumbers = { -9999991, 4, -23, 4, 22, 4456, -1830 };
+
 
 	cout << "contents of array BEFORE the swap: \n";
 	print(someNumbers); 
+
+	cout << "What is the minimum in this list? \n"; 
+	int minimum = findMinimum(someNumbers); 
+
+	cout << "It is ..." << minimum << "\n";
 
 	//can we write a function that swaps the contents of two locations in this array? 
 	int firstPosition = 3; 
