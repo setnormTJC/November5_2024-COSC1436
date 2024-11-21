@@ -58,9 +58,9 @@ int findMinimum(vector<int> nums) //{1, 4, -23, 4, 22, 4456, -1830}
 
 void inplace_ascending_sort(vector<int>& someUnsortedNumbers)
 {
-	for (int leftIndex = 0; leftIndex < someUnsortedNumbers.size(); ++leftIndex)
+	for (int leftIndex = 0; leftIndex < someUnsortedNumbers.size() - 1; ++leftIndex)
 	{
-		for (int rightIndex = 1; rightIndex < someUnsortedNumbers.size() - 1; ++rightIndex)
+		for (int rightIndex = leftIndex + 1; rightIndex < someUnsortedNumbers.size(); ++rightIndex)
 		{
 			if (someUnsortedNumbers[rightIndex] < someUnsortedNumbers[leftIndex]) //22 < 33
 			{
@@ -95,17 +95,24 @@ vector<int> out_of_place_ascending_sort(vector<int>& someUnsortedNumbers)
 
 int main()
 {
-	vector<int> someUnsortedNumbers = {55, 44, 33, 22, 11};
+	vector<int> someUnsortedNumbers;// = { 55, 44, 33, 22, 11 };
+
+	const int N = 100; //Big O notation 
+
+	for (int i = 0; i < N; ++i)
+	{
+		someUnsortedNumbers.push_back(rand() % N); //random numbers from 0 - 100 (99)
+	}
 	
 	//cout << "Minimum is: " << findMinimum(someUnsortedNumbers) << "\n";
 	//auto someSortedNumbers = out_of_place_ascending_sort(someUnsortedNumbers); 
+	cout << "UNSORTED (random) list of nums: \n";
+	print(someUnsortedNumbers); 
 
 	inplace_ascending_sort(someUnsortedNumbers);
 
+	cout << "\n\nWas the sort successful?\n";
 	print(someUnsortedNumbers); 
-
-
-
 
 }
 

@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "listing permutations", "lis
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nov19 - getting into some sorting algos", "Nov19 - gettting into some sorting algos\Nov19 - gettting into some sorting algos.vcxproj", "{73D22EBD-A660-43AF-986C-A9C51AD94A37}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileReadingStatisticsAssignment", "FileReadingStatistics\FileReadingStatistics.vcxproj", "{80394460-8887-4CC6-823C-0748BC55F06E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{73D22EBD-A660-43AF-986C-A9C51AD94A37}.Release|x64.Build.0 = Release|x64
 		{73D22EBD-A660-43AF-986C-A9C51AD94A37}.Release|x86.ActiveCfg = Release|Win32
 		{73D22EBD-A660-43AF-986C-A9C51AD94A37}.Release|x86.Build.0 = Release|Win32
+		{80394460-8887-4CC6-823C-0748BC55F06E}.Debug|x64.ActiveCfg = Debug|x64
+		{80394460-8887-4CC6-823C-0748BC55F06E}.Debug|x64.Build.0 = Debug|x64
+		{80394460-8887-4CC6-823C-0748BC55F06E}.Debug|x86.ActiveCfg = Debug|Win32
+		{80394460-8887-4CC6-823C-0748BC55F06E}.Debug|x86.Build.0 = Debug|Win32
+		{80394460-8887-4CC6-823C-0748BC55F06E}.Release|x64.ActiveCfg = Release|x64
+		{80394460-8887-4CC6-823C-0748BC55F06E}.Release|x64.Build.0 = Release|x64
+		{80394460-8887-4CC6-823C-0748BC55F06E}.Release|x86.ActiveCfg = Release|Win32
+		{80394460-8887-4CC6-823C-0748BC55F06E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
